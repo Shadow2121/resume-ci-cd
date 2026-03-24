@@ -1,0 +1,92 @@
+# Humanizer Rules — Banned "AI-smell" words and phrases
+# Format: BANNED_WORD/PHRASE -> REPLACEMENT
+# Lines starting with # are comments.
+# The Humanizer agent must replace ALL occurrences (case-insensitive) in the draft.
+# Replacements must fit grammatically in context.
+
+# ---------------------------------------------------------------------------
+# Overused / Corporate-speak verbs
+# ---------------------------------------------------------------------------
+spearheaded -> Led
+leveraged -> Used
+utilized -> Used
+harnessed -> Applied
+facilitated -> Enabled
+synergized -> Combined
+streamlined -> Simplified
+orchestrated -> Coordinated
+pioneered -> Built
+championed -> Drove
+conceptualized -> Designed
+ideated -> Designed
+evangelized -> Promoted
+operationalized -> Deployed
+socialized -> Shared
+actioned -> Executed
+crystalized -> Defined
+fostered -> Built
+cultivated -> Built
+
+# ---------------------------------------------------------------------------
+# Adjective fluff
+# ---------------------------------------------------------------------------
+vibrant -> strong
+robust -> reliable
+cutting-edge -> modern
+state-of-the-art -> current
+world-class -> high-quality
+best-in-class -> top-performing
+next-generation -> updated
+innovative -> effective
+revolutionary -> significant
+groundbreaking -> notable
+transformative -> impactful
+disruptive -> new
+seamless -> smooth
+holistic -> complete
+dynamic -> active
+passionate -> focused
+enthusiastic -> motivated
+exciting -> relevant
+
+# ---------------------------------------------------------------------------
+# Noun fluff
+# ---------------------------------------------------------------------------
+synergies -> efficiencies
+ecosystem -> system
+paradigm -> approach
+landscape -> environment
+journey -> process
+narrative -> description
+bandwidth -> capacity
+north star -> goal
+stakeholders -> team / users (context-dependent)
+deliverables -> outputs
+learnings -> findings
+deep dive -> analysis
+takeaways -> conclusions
+low-hanging fruit -> quick wins
+
+# ---------------------------------------------------------------------------
+# Filler phrases
+# ---------------------------------------------------------------------------
+in order to -> to
+at the end of the day -> overall
+move the needle -> improve results
+circle back -> revisit
+touch base -> check in
+bleeding edge -> latest
+going forward -> in the future
+as per -> per
+reach out -> contact
+on my radar -> noted
+
+# ---------------------------------------------------------------------------
+# Passive/weak ownership signals
+# ---------------------------------------------------------------------------
+was responsible for -> owned
+was involved in -> contributed to
+assisted with -> supported
+part of the team that -> helped
+worked closely with -> collaborated with
+played a key role in -> contributed to

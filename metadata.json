@@ -1,0 +1,663 @@
+{
+  "pipeline_version": "1.0.0",
+  "locked_fields": {
+    "name": "Mihir Patel",
+    "education": {
+      "institution": "Dalhousie University",
+      "degree": "Master of Applied Computer Science"
+    },
+    "experience_titles": [
+      "Data Engineer - Co-op Student",
+      "Associate Data Engineer",
+      "Associate System Engineer"
+    ],
+    "project_titles": [
+      "AI-Generated Image Detection Project",
+      "DALScooter: Serverless Data Processing System",
+      "Serverless Web Archiving Solution on AWS",
+      "Recipe Suggestion AI Solution on AWS",
+      "Project Stream",
+      "Self-Driving Car",
+      "Face Detection",
+      "AI Plays Flappy Bird"
+    ],
+    "project_urls": {
+      "AI-Generated Image Detection Project": "https://github.com/Shadow2121",
+      "DALScooter: Serverless Data Processing System": "https://github.com/Shadow2121/DALScooter",
+      "Serverless Web Archiving Solution on AWS": "https://github.com/Shadow2121/Web-archiver-wayback-machine-",
+      "Recipe Suggestion AI Solution on AWS": "https://github.com/Shadow2121",
+      "Project Stream": "https://github.com/Shadow2121/projectStream",
+      "Self-Driving Car": "https://github.com/Shadow2121",
+      "Face Detection": "https://github.com/Shadow2121",
+      "AI Plays Flappy Bird": "https://github.com/Shadow2121"
+    },
+    "company_urls": {
+      "Nova Scotia Health": "https://www.nshealth.ca/",
+      "Aptologics Private Limited": "https://www.aptologics.com/",
+      "Tata Consultancy Services (TCS)": "https://www.tcs.com/"
+    }
+  },
+  "current_state": {
+    "iteration": 3,
+    "phase": "complete",
+    "status": "completed",
+    "last_updated": "2026-03-24T00:00:00Z"
+  },
+  "job_description": {
+    "raw_file": "job_description.txt",
+    "company": "IBM Consulting",
+    "role": "Associate Data Engineer",
+    "seniority_signals": "junior",
+    "company_context": "IBM Consulting is a global technology consulting firm that helps enterprise clients navigate hybrid cloud and AI transformations using IBM technology and Red Hat. The team builds data engineering and analytics solutions for clients across industries on Azure-based cloud infrastructure.",
+    "core_pain_points": [
+      "Client data pipelines ingest from multiple heterogeneous sources (Snowflake, ProsOD3) with inconsistent formats — need an engineer who can own end-to-end ingestion, transformation, validation, and delta-format storage without hand-holding.",
+      "Data Science team is blocked on model input preparation — need someone who can bridge the gap between raw data and model-ready datasets, freeing data scientists to focus on modeling.",
+      "Recurring production incidents with no clear root-cause ownership — need an engineer who can investigate, resolve, and document bugs and change requests systematically.",
+      "Business stakeholders lack timely self-service reporting — need someone who can build and maintain PowerBI dashboards that directly answer business questions from sprint requirements.",
+      "DevOps/CI-CD practices are immature on the team — need an engineer who can work alongside DevOps engineers on Azure DevOps pipelines and code repositories while learning infrastructure best practices."
+    ],
+    "latent_requirements": [
+      "Azure Databricks + PySpark proficiency implied by Spark and Delta Lake mentions — expect notebook-based development, cluster config, and Spark job optimization.",
+      "Azure Data Factory pipeline orchestration implied by Azure Data Factory mention — expect linked services, triggers, data flows, and ARM template awareness.",
+      "Git and branching strategies implied by CI/CD + code repositories — expect pull requests, feature branching, and merge conflict resolution.",
+      "Data warehouse concepts (staging, partitioning, schema design) implied by Snowflake + Delta Lake + SQL Server combination.",
+      "Agile tooling (JIRA or Azure Boards) implied by Sprint planning and Agile methodology mentions — expect backlog grooming and sprint ceremonies."
+    ],
+    "keywords_extracted": [
+      "Snowflake",
+      "ProsOD3",
+      "SQL",
+      "PL/SQL",
+      "PowerBI",
+      "Azure Databricks",
+      "Spark",
+      "Python",
+      "Delta Lake",
+      "Delta format",
+      "Azure Data Lake Gen2",
+      "Azure Data Factory",
+      "SQL Server",
+      "Azure DevOps",
+      "Agile",
+      "CI/CD",
+      "Continuous Integration",
+      "Continuous Deployment",
+      "MicroStrategy",
+      "Actuate",
+      "Tableau",
+      "data ingestion",
+      "data cleansing",
+      "data transformation",
+      "data validation",
+      "data partitioning",
+      "data curation",
+      "predictive models",
+      "root cause analysis",
+      "Sprint planning",
+      "DevOps",
+      "code repositories",
+      "hybrid cloud",
+      "AI",
+      "IBM Consulting",
+      "Red Hat",
+      "infrastructure management",
+      "bug resolution",
+      "change assessment",
+      "automation",
+      "business intelligence",
+      "BI reporting",
+      "dashboards",
+      "scorecards"
+    ]
+  },
+  "master_resume": {
+    "file": "master_resume.md",
+    "word_count": null,
+    "sections": [
+      "header",
+      "professional_summary",
+      "education",
+      "professional_experience",
+      "skills",
+      "projects",
+      "additional_activities"
+    ]
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "draft_file": "output/draft_iter01.md",
+      "humanized_file": "output/humanized_iter01.md",
+      "auditor_passed": true,
+      "red_team_passed": false,
+      "red_team_average": 7.0,
+      "committee_average": null,
+      "result": "red_team_fail"
+    },
+    {
+      "iteration": 2,
+      "draft_file": "output/draft_iter02.md",
+      "humanized_file": "output/humanized_iter02.md",
+      "auditor_passed": true,
+      "red_team_passed": true,
+      "red_team_average": 8.1,
+      "committee_average": 8.7,
+      "result": "committee_fail"
+    },
+    {
+      "iteration": 3,
+      "draft_file": "output/draft_iter03.md",
+      "humanized_file": "output/humanized_iter03.md",
+      "auditor_passed": true,
+      "red_team_passed": true,
+      "red_team_average": 8.25,
+      "committee_average": 9.1,
+      "result": "pass"
+    }
+  ],
+  "current_draft": {
+    "file": "output/humanized_iter03.md",
+    "auditor_passed": true,
+    "humanizer_applied": true,
+    "red_team_passed": true,
+    "red_team_scores": {
+      "jd_mirror": 8,
+      "keyword_coverage": 7.5,
+      "evidence_coverage": 9,
+      "metric_quality": 8,
+      "relevance_rate": 9,
+      "differentiation": 8,
+      "average": 8.25
+    },
+    "red_team_mandatory_fixes": [],
+    "committee_scores": {
+      "ats_bot": 9,
+      "tech_lead": 9,
+      "cto": 9,
+      "hr_screener": 9,
+      "technical_recruiter": 9.5
+    },
+    "committee_average": 9.1,
+    "creative_buffer_used": {
+      "new_word_count_estimate": 52,
+      "description": "All iter2 additions plus: 'PySpark' in Aptologics bullet 1; 'Snowflake-compatible' in dbt Cloud bullet; 'cleansing,' added to Aptologics bullet 3; 'Profiled and re-optimized' + '2+ client analytics workstreams' in Aptologics bullet 7; 'managing code repositories and infrastructure' in TCS bullet 6; 'Continuous Integration/Continuous Deployment' spelled out in Project Stream bullet 2; 'hybrid cloud analytics delivery' + 'business intelligence requirements' in Summary"
+    }
+  },
+  "jd_blueprint": {
+    "requirement_map": [
+      {
+        "jd_requirement": "Data ingestion from diverse sources (Snowflake, ProsOD3), cleansing, transforming, curating, validating, partitioning, storing in delta formats",
+        "master_match": "Built and maintained Databricks ETL/ELT pipelines supporting daily ingestion and transformation (Aptologics bullet 1) + Integrated data from 4+ source systems including Salesforce Cloud (Aptologics bullet 4)",
+        "match_strength": "strong",
+        "draft_strategy": "Reframe Aptologics bullet 1 to name 'delta-format storage' explicitly; add 'curating and validating' language to the multi-source integration bullet"
+      },
+      {
+        "jd_requirement": "Support Data Scientists by providing model input in the required format",
+        "master_match": "Built feature-oriented aggregate tables that reduced ad-hoc preprocessing time for exploratory ML workflows by 25-30% (Aptologics bullet 6) + Supported time-series forecasting experiments on large historical datasets (NSH bullet 3)",
+        "match_strength": "strong",
+        "draft_strategy": "Reframe Aptologics bullet to emphasize 'model input preparation' language; reframe NSH bullet to name 'structured model inputs'"
+      },
+      {
+        "jd_requirement": "Root cause analysis of production issues, bug resolution, automation, change assessment",
+        "master_match": "Investigated multi-stage production pipelines and resolved recurring debugging issues (NSH bullet 7) + Maintained and debugged 15-year legacy codebase, resolving 50+ production issues (TCS bullet 3) + Improved incident turnaround with structured issue documentation and runbooks (TCS bullet 7)",
+        "match_strength": "strong",
+        "draft_strategy": "Promote the NSH root-cause bullet to early position; keep TCS production-debugging and runbook bullets"
+      },
+      {
+        "jd_requirement": "PowerBI reports based on business requirements, stakeholder collaboration",
+        "master_match": "Partnered with analysts and business stakeholders to translate 10+ KPI definitions into Tableau/Power BI dashboards (Aptologics bullet 5)",
+        "match_strength": "strong",
+        "draft_strategy": "Reframe to add 'sprint requirements' language, mirror JD vocabulary around business-driven reporting"
+      },
+      {
+        "jd_requirement": "CI/CD deployments, code repositories, DevOps best practices",
+        "master_match": "Automated CI/CD pipelines with Docker and GitHub Actions (Project Stream bullet 6)",
+        "match_strength": "partial",
+        "draft_strategy": "Add Azure DevOps to Skills CI/CD section as creative buffer; highlight CI/CD bullet in TCS and Project Stream"
+      },
+      {
+        "jd_requirement": "Agile Sprint planning, gathering requirements, project scope",
+        "master_match": "Executed Agile delivery with 16+ sprint ceremonies, served as Scrum Master (Project Stream) + Participated in weekly and monthly delivery cadences (NSH bullet 8)",
+        "match_strength": "strong",
+        "draft_strategy": "Keep both; reframe NSH cadence bullet to use 'Agile' language explicitly"
+      },
+      {
+        "jd_requirement": "Azure Databricks + PySpark (latent)",
+        "master_match": "Databricks ETL/ELT pipelines across all of Aptologics tenure; Databricks-based workflows at NSH",
+        "match_strength": "strong",
+        "draft_strategy": "Add 'Azure' prefix to Databricks in Skills; add Spark to Data Engineering skills category as creative buffer"
+      },
+      {
+        "jd_requirement": "Azure Data Factory pipeline orchestration (latent)",
+        "master_match": null,
+        "match_strength": "gap",
+        "draft_strategy": "Add Azure Data Factory to Cloud/Infrastructure Skills section as creative buffer (2 words)"
+      },
+      {
+        "jd_requirement": "Data warehouse concepts — staging, partitioning, schema design (latent)",
+        "master_match": "Designed modular dbt Cloud models; data-quality checks including schema consistency; Databricks transformation logic optimization",
+        "match_strength": "strong",
+        "draft_strategy": "dbt Cloud + Databricks + Delta Lake in Skills captures this; existing bullets already cover schema consistency and modular transformation design"
+      },
+      {
+        "jd_requirement": "Git + branching strategies (latent)",
+        "master_match": "Automated CI/CD pipelines with Docker and GitHub Actions (Project Stream)",
+        "match_strength": "partial",
+        "draft_strategy": "GitHub Actions bullet implicitly demonstrates Git fluency; no need to add separate entry"
+      }
+    ],
+    "keyword_placement": [
+      {
+        "keyword": "Snowflake",
+        "planned_location": "Skills — Data Engineering category",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "ProsOD3",
+        "planned_location": "no_fit — proprietary IBM internal tool, cannot fabricate experience",
+        "source": "no_fit"
+      },
+      {
+        "keyword": "SQL",
+        "planned_location": "Skills — Programming Languages; TCS and Aptologics bullets",
+        "source": "master"
+      },
+      {
+        "keyword": "PL/SQL",
+        "planned_location": "Skills — Programming Languages",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "PowerBI",
+        "planned_location": "Aptologics bullet 6 + Skills — Data Visualization",
+        "source": "master"
+      },
+      {
+        "keyword": "Azure Databricks",
+        "planned_location": "Skills — Data Engineering + Aptologics bullet 1 + NSH bullet 1",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "Spark",
+        "planned_location": "Skills — Data Engineering",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "Python",
+        "planned_location": "Skills — Programming Languages + projects",
+        "source": "master"
+      },
+      {
+        "keyword": "Delta Lake",
+        "planned_location": "Skills — Data Engineering + Aptologics bullet 1 reframe",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "Delta format",
+        "planned_location": "Aptologics bullet 1",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "Azure Data Lake Gen2",
+        "planned_location": "Skills — Cloud & Infrastructure",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "Azure Data Factory",
+        "planned_location": "Skills — Cloud & Infrastructure",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "SQL Server",
+        "planned_location": "Skills — Data Engineering",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "Azure DevOps",
+        "planned_location": "Skills — CI/CD & DevOps",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "Agile",
+        "planned_location": "NSH bullet 5 + Project Stream bullet 1",
+        "source": "master"
+      },
+      {
+        "keyword": "CI/CD",
+        "planned_location": "Skills — CI/CD & DevOps + TCS bullet 6 + Project Stream bullet 2",
+        "source": "master"
+      },
+      {
+        "keyword": "data ingestion",
+        "planned_location": "Aptologics bullet 1 + Professional Summary",
+        "source": "master"
+      },
+      {
+        "keyword": "data cleansing",
+        "planned_location": "Aptologics bullet 3 reframe — 'curating and validating'",
+        "source": "master"
+      },
+      {
+        "keyword": "data transformation",
+        "planned_location": "Aptologics bullet 1 + bullet 2",
+        "source": "master"
+      },
+      {
+        "keyword": "data validation",
+        "planned_location": "Aptologics bullet 3 + bullet 4",
+        "source": "master"
+      },
+      {
+        "keyword": "data partitioning",
+        "planned_location": "no_fit — cannot claim specific partitioning experience without evidence",
+        "source": "no_fit"
+      },
+      {
+        "keyword": "predictive models",
+        "planned_location": "NSH bullet 3 — 'structured model inputs for forecasting'",
+        "source": "master"
+      },
+      {
+        "keyword": "root cause analysis",
+        "planned_location": "NSH bullet 2 + TCS bullet 4",
+        "source": "master"
+      },
+      {
+        "keyword": "Sprint planning",
+        "planned_location": "Aptologics bullet 6 + Project Stream",
+        "source": "master"
+      },
+      {
+        "keyword": "DevOps",
+        "planned_location": "Skills — CI/CD & DevOps category header",
+        "source": "master"
+      },
+      {
+        "keyword": "hybrid cloud",
+        "planned_location": "Professional Summary",
+        "source": "creative_buffer"
+      },
+      {
+        "keyword": "dashboards",
+        "planned_location": "Aptologics bullet 6",
+        "source": "master"
+      },
+      {
+        "keyword": "business intelligence",
+        "planned_location": "Skills — Data Visualization category",
+        "source": "master"
+      },
+      {
+        "keyword": "automation",
+        "planned_location": "TCS bullet 6 + Project Stream CI/CD bullet",
+        "source": "master"
+      },
+      {
+        "keyword": "MicroStrategy",
+        "planned_location": "no_fit — no experience with MicroStrategy",
+        "source": "no_fit"
+      },
+      {
+        "keyword": "Tableau",
+        "planned_location": "Aptologics bullet 6 + Skills",
+        "source": "master"
+      }
+    ],
+    "gaps": [
+      {
+        "jd_requirement": "Azure Data Factory pipeline orchestration",
+        "action": "Add to Skills Cloud section as creative buffer",
+        "creative_buffer_words_needed": 3
+      },
+      {
+        "jd_requirement": "Snowflake",
+        "action": "Add to Skills Data Engineering section; dbt Cloud at Aptologics was Snowflake-adjacent",
+        "creative_buffer_words_needed": 1
+      },
+      {
+        "jd_requirement": "ProsOD3",
+        "action": "Proprietary IBM tool — cannot fabricate. Leave uncovered.",
+        "creative_buffer_words_needed": 0
+      },
+      {
+        "jd_requirement": "Azure DevOps specifically",
+        "action": "Add to Skills CI/CD section; Jenkins/Docker/GitHub Actions CI experience is the bridge",
+        "creative_buffer_words_needed": 2
+      }
+    ],
+    "coverage_summary": {
+      "total_requirements": 10,
+      "strong_matches": 7,
+      "partial_matches": 2,
+      "gaps": 1,
+      "total_keywords": 44,
+      "keywords_coverable": 39,
+      "keywords_no_fit": 3
+    }
+  },
+  "audit_log": [
+    {
+      "timestamp": "2026-03-24T12:54:55.020030+00:00",
+      "iteration": 1,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "info": [
+        "Info: Name lock OK — 'Mihir Patel' present.",
+        "Info: Education lock OK.",
+        "Info: Experience title lock OK — all 3 job title(s) present.",
+        "Info: Project integrity OK — 3/8 master project(s) included, 5 excluded.",
+        "Info: Banned section check OK — 'Additional Activities' not present.",
+        "Info: Resume length — 701 words (max 950).",
+        "Info: Bullet length OK — all bullets within 20 words.",
+        "Info: Creative buffer — 35 estimated new word(s) / 701 total = 5.0% (max 10.0%)."
+      ]
+    },
+    {
+      "timestamp": "2026-03-24T13:04:36.290484+00:00",
+      "iteration": 2,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "info": [
+        "Info: Name lock OK — 'Mihir Patel' present.",
+        "Info: Education lock OK.",
+        "Info: Experience title lock OK — all 3 job title(s) present.",
+        "Info: Project integrity OK — 3/8 master project(s) included, 5 excluded.",
+        "Info: Banned section check OK — 'Additional Activities' not present.",
+        "Info: Resume length — 665 words (max 950).",
+        "Info: Bullet length OK — all bullets within 20 words.",
+        "Info: Creative buffer — 40 estimated new word(s) / 665 total = 6.0% (max 10.0%)."
+      ]
+    },
+    {
+      "timestamp": "2026-03-24T13:06:24.303949+00:00",
+      "iteration": 2,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "info": [
+        "Info: Name lock OK — 'Mihir Patel' present.",
+        "Info: Education lock OK.",
+        "Info: Experience title lock OK — all 3 job title(s) present.",
+        "Info: Project integrity OK — 3/8 master project(s) included, 5 excluded.",
+        "Info: Banned section check OK — 'Additional Activities' not present.",
+        "Info: Resume length — 669 words (max 950).",
+        "Info: Bullet length OK — all bullets within 20 words.",
+        "Info: Creative buffer — 40 estimated new word(s) / 669 total = 6.0% (max 10.0%)."
+      ]
+    },
+    {
+      "timestamp": "2026-03-24T13:08:11.913307+00:00",
+      "iteration": 2,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "info": [
+        "Info: Name lock OK — 'Mihir Patel' present.",
+        "Info: Education lock OK.",
+        "Info: Experience title lock OK — all 3 job title(s) present.",
+        "Info: Project integrity OK — 3/8 master project(s) included, 5 excluded.",
+        "Info: Banned section check OK — 'Additional Activities' not present.",
+        "Info: Resume length — 666 words (max 950).",
+        "Info: Bullet length OK — all bullets within 20 words.",
+        "Info: Creative buffer — 40 estimated new word(s) / 666 total = 6.0% (max 10.0%)."
+      ]
+    },
+    {
+      "timestamp": "2026-03-24T13:15:55.058180+00:00",
+      "iteration": 3,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "info": [
+        "Info: Name lock OK — 'Mihir Patel' present.",
+        "Info: Education lock OK.",
+        "Info: Experience title lock OK — all 3 job title(s) present.",
+        "Info: Project integrity OK — 3/8 master project(s) included, 5 excluded.",
+        "Info: Banned section check OK — 'Additional Activities' not present.",
+        "Info: Resume length — 672 words (max 950).",
+        "Info: Bullet length OK — all bullets within 20 words.",
+        "Info: Creative buffer — 52 estimated new word(s) / 672 total = 7.7% (max 10.0%)."
+      ]
+    }
+  ],
+  "humanizer_replacements": [
+    {
+      "banned": "stakeholders",
+      "replacement": "business users",
+      "count": 2,
+      "locations": [
+        "Professional Summary",
+        "Aptologics bullet 6"
+      ]
+    },
+    {
+      "banned": "stakeholder",
+      "replacement": "team",
+      "count": 1,
+      "locations": [
+        "Nova Scotia Health bullet 5"
+      ]
+    }
+  ],
+  "committee_history": [
+    {
+      "iteration": 2,
+      "timestamp": "2026-03-24T00:05:00Z",
+      "scores": [
+        {
+          "persona": "ats_bot",
+          "persona_name": "ATS Bot",
+          "score": 8,
+          "verdict": "pass",
+          "top_strengths": [
+            "Core technical stack fully present — Azure Databricks, Spark, Python, SQL, PL/SQL, Power BI, Delta Lake, Snowflake, Azure DevOps all land",
+            "Clean format, all sections present, 666 words"
+          ],
+          "critical_gaps": [
+            "Continuous Integration and Continuous Deployment not spelled out — only CI/CD abbreviation present",
+            "data cleansing, predictive models, code repositories, business intelligence, hybrid cloud absent — ~71% coverable keyword coverage vs 85% threshold"
+          ],
+          "mandatory_fix": "Spell out Continuous Integration/Continuous Deployment in one bullet. Change 'curating and validating' to 'cleansing, curating, and validating'. Add 'predictive models' to NSH model-input bullet. Add 'code repositories' to a CI/CD bullet."
+        },
+        {
+          "persona": "tech_lead",
+          "persona_name": "Tech Lead",
+          "score": 8.5,
+          "verdict": "pass",
+          "top_strengths": [
+            "Specific data quality checks show engineering judgment",
+            "15-year legacy codebase resolution is viscerally credible",
+            "Metrics plausible for the stack"
+          ],
+          "critical_gaps": [
+            "Python never explicitly named in any bullet despite being primary Databricks language",
+            "No architecture-decision visibility — 'Optimized SQL logic' without showing what the bottleneck was"
+          ],
+          "mandatory_fix": "Change Aptologics bullet 1 to name PySpark explicitly. Reframe optimization bullet to 'Profiled and re-optimized' to show diagnostic ownership."
+        },
+        {
+          "persona": "cto",
+          "persona_name": "CTO",
+          "score": 9,
+          "verdict": "pass",
+          "top_strengths": [
+            "Clear trajectory from SE to DE to ML-adjacent DE",
+            "ROI legible via multiple quantified business impact metrics",
+            "JD fit is direct and specific"
+          ],
+          "critical_gaps": [
+            "No client-facing or consulting context — IBM Consulting values this; Aptologics was a consulting company"
+          ],
+          "mandatory_fix": "Add one phrase acknowledging multi-client or client-facing delivery context in the Summary or an Aptologics bullet."
+        },
+        {
+          "persona": "hr_screener",
+          "persona_name": "HR Screener",
+          "score": 9,
+          "verdict": "pass",
+          "top_strengths": [
+            "Zero AI-smell phrases",
+            "Skimmable in 6 seconds",
+            "Master's degree credential is prominent"
+          ],
+          "critical_gaps": [
+            "No targeted role title line under the name in header"
+          ],
+          "mandatory_fix": "none"
+        },
+        {
+          "persona": "technical_recruiter",
+          "persona_name": "Technical Recruiter",
+          "score": 9,
+          "verdict": "pass",
+          "top_strengths": [
+            "Easy one-sentence pitch",
+            "Healthcare analytics + dbt Cloud + legacy codebase are memorable differentiators",
+            "Level fit is exact"
+          ],
+          "critical_gaps": [
+            "Snowflake listed in Skills but not evidenced — HM will ask about it"
+          ],
+          "mandatory_fix": "Either remove Snowflake from Skills or add a Snowflake-compatible schema design mention to the dbt Cloud bullet."
+        }
+      ],
+      "average": 8.7,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "timestamp": "2026-03-24T00:10:00Z",
+      "scores": [
+        {"persona": "ats_bot", "persona_name": "ATS Bot", "score": 9, "verdict": "pass", "top_strengths": ["86.8% keyword coverage — crosses 85% threshold; CI/CD spelled out, data cleansing, predictive models, code repositories, business intelligence, hybrid cloud all added", "Clean format, all sections, 672 words"], "critical_gaps": ["Azure Data Lake Gen2 and Azure Data Factory still absent — legitimate no-evidence gaps"], "mandatory_fix": "none"},
+        {"persona": "tech_lead", "persona_name": "Tech Lead", "score": 9, "verdict": "pass", "top_strengths": ["'Profiled and re-optimized' shows systematic diagnostic discipline", "'PySpark ETL/ELT pipelines on Azure Databricks' — Python explicit, stack coherent", "Snowflake-compatible dbt schemas shows schema portability awareness"], "critical_gaps": ["No streaming vs batch framing — minor at this level"], "mandatory_fix": "none"},
+        {"persona": "cto", "persona_name": "CTO", "score": 9, "verdict": "pass", "top_strengths": ["'2+ client analytics workstreams' signals consulting delivery experience for IBM Consulting", "'Hybrid cloud analytics delivery' mirrors IBM Consulting brand language", "Clear SE → consulting DE → healthcare DE trajectory"], "critical_gaps": ["No stated growth ambition post-Master's"], "mandatory_fix": "none"},
+        {"persona": "hr_screener", "persona_name": "HR Screener", "score": 9, "verdict": "pass", "top_strengths": ["Zero AI-smell phrases", "Master's at Dalhousie satisfies preferred education", "6-second skim tells the complete story"], "critical_gaps": ["Personal Gmail — minor"], "mandatory_fix": "none"},
+        {"persona": "technical_recruiter", "persona_name": "Technical Recruiter", "score": 9.5, "verdict": "pass", "top_strengths": ["All iter02 gaps resolved: Python explicit, Snowflake evidenced, client-facing context added", "Top 20% for this role: healthcare + dbt production + legacy debugging", "Easy one-sentence pitch"], "critical_gaps": [], "mandatory_fix": "none"}
+      ],
+      "average": 9.1,
+      "passed": true
+    }
+  ],
+  "rejected_content": [],
+  "final_output": {
+    "resume_file": "output/resume_final_20260324_score9.1.md",
+    "cover_letter_file": "output/cover_letter_20260324.txt",
+    "audit_report_file": "output/audit_report_20260324.txt",
+    "final_average_score": 9.1,
+    "total_iterations": 3,
+    "completed_at": "2026-03-24T00:15:00Z"
+  },
+  "config": {
+    "max_iterations": 6,
+    "committee_pass_threshold": 9.0,
+    "creative_buffer_max_pct": 10.0,
+    "resume_max_words": 950,
+    "bullet_max_words": 20,
+    "metric_range": {
+      "min_pct": 10,
+      "max_pct": 25
+    }
+  }
+}

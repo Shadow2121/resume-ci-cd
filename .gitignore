@@ -1,0 +1,25 @@
+# ── Personal / sensitive files ──────────────────────────────────────────────
+master_resume.md
+sample_temlate.tex
+
+# ── Pipeline output ──────────────────────────────────────────────────────────
+# Generated files — not source code
+output/
+
+# ── Job descriptions (personal, not part of the tool) ────────────────────────
+job_description.txt
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── OS / editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
